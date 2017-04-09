@@ -1,0 +1,30 @@
+{
+  "name": "@jmarthernandez/express-spa",
+  "version": "1.0.0",
+  "description": "express middleware for push state",
+  "main": "index.js",
+  "scripts": {
+    "lint": "semistandard --verbose | snazzy"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "semistandard": {
+    "globals": [ "describe", "it" ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmarthernandez/express-spa.git"
+  },
+  "author": "Justin Hernandez <jmarthernandez@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmarthernandez/express-spa/issues"
+  },
+  "homepage": "https://github.com/jmarthernandez/express-spa#readme",
+  "devDependencies": {
+    "pre-commit": "^1.2.2",
+    "semistandard": "^10.0.0",
+    "snazzy": "^7.0.0"
+  }
+}
