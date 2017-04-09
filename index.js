@@ -11,5 +11,5 @@ module.exports = function pushState (file, options) {
     } else {
       next();
     }
-  }
+  };
 };
