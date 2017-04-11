@@ -12,7 +12,7 @@ var app = express();
 var static = __dirname + 'path/to/static/directory';
 
 app.use(express.static(root));
-app.use(@jmarthernandez/express-spa('index.html', { root: root }));
+app.use(pushState('index.html', { root: root }));
 
 app.listen(8080, function () {
   console.log('Now you can bookmark your single page application');
